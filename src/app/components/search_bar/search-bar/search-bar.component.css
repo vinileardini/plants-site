@@ -1,0 +1,28 @@
+.card-search{
+    width: 95vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.search::placeholder{
+    color: black;
+    padding-left: 2%;
+}
+
+
+.card-search > button{
+    width: 8%;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+.search-img{
+    height: 50%;
+    width: 25%;
+}

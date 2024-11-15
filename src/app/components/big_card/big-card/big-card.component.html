@@ -1,0 +1,20 @@
+<div class="container__content">
+  <a [routerLink]="['']" ><img src="https://cdn-icons-png.flaticon.com/512/5774/5774594.png" alt="Botao voltar"></a>
+    <div class="content__cover">
+      <img src="{{ photoCover }}" alt="Imagem Notícia">
+    </div>
+    <hr>
+    <div class="content__title">
+      <h1 >{{ contentTitle }}</h1>
+    </div>
+    <div class="content_text">
+      <div class="content__description">
+        <div class="principal-info">
+          <p> Nome científico: {{name}}</p>
+          <p> Origem: {{origem}}</p>
+          <p> Altura: {{altura}}</p>
+        </div>
+        <p>{{ contentDescription }}</p>
+      </div>
+    </div>
+  </div>

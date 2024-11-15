@@ -1,0 +1,12 @@
+.back-card{
+    background-color: rgb(184, 184, 184);
+    width: 60vw;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0;
+}

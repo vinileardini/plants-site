@@ -1,0 +1,30 @@
+<div class="div_principal">
+    <div class="card-principal">
+        <div class="img_div">
+            <img src={{photoCover}} alt="teste">
+        </div>
+    
+        <hr>
+    
+        <div class="text-card">
+            <h3>{{cardTitle}}</h3>
+
+            <div class="info">
+                <p>Nome científico: {{nome_cientifico}}</p>
+
+                <p>País de origem: {{origem}}</p>
+
+                <p>Cultivo: {{forma_cultivo}}</p>
+
+                <p>Altura média: {{Plant_size}}</p>
+            </div>
+
+            <div class="more-button">
+                <button [routerLink]="['content',Id]">Ver mais</button>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
